@@ -1,0 +1,80 @@
+.add-service-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom right, #FFA500, #FFB347); /* Orange Gradient */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-align: center;
+  }
+  
+  .add-service-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .add-service-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-service-form input,
+  .add-service-form textarea,
+  .add-service-form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit;
+    color: #333;
+  }
+  
+  .add-service-form input::placeholder,
+  .add-service-form textarea::placeholder {
+    color: #999;
+  }
+  
+  .add-service-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .add-service-form button {
+    padding: 12px;
+    background-color: #FF6347; /* Tomato Orange */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .add-service-form button:hover {
+    background-color: #E5533D;
+  }
+  
+  .add-service-form input[type="file"] {
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .add-service-form input[type="file"]::-webkit-file-upload-button {
+    background-color: #FF6347;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+  
+  .add-service-form input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #E5533D;
+  }
+  

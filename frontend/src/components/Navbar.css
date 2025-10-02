@@ -1,0 +1,165 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@600&display=swap');
+
+/* Navbar Styling */
+.navbar { /* Softer Peach to Orange background: linear-gradient(to right, #ff9a76, #ff6b35);*/
+  background: linear-gradient(to right, #fc7544, #ff6b35);;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo */
+.nav-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #eee9e9;
+  text-decoration: none;
+  font-family: "Playfair Display", serif; /* Elegant Serif Font */
+  letter-spacing: 1.2px;
+  transition: color 0.3s ease;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nav-logo:hover {
+  color: #772e25;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-links a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2b2b2b;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.nav-links a:hover {
+  background-color: #ffe5d9;
+  color: #e63946;
+}
+
+/* 🔍 Search Bar */
+.nav-search {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search-input {
+  padding: 8px 15px;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid #ff6b35;
+  border-radius: 20px;
+  outline: none;
+  transition: all 0.3s ease;
+  width: 220px;
+  background: white;
+}
+
+.search-input:focus {
+  border-color: #e63946;
+  box-shadow: 0px 0px 8px rgba(230, 57, 70, 0.4);
+}
+
+/* 🛒 Cart Icon */
+.cart-icon {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  position: relative;
+  color: #6d2932;
+  cursor: pointer;
+}
+
+.cart-icon:hover {
+  color: #e63946;
+}
+
+/* Cart Count Badge */
+.cart-count {
+  background-color: #d62828;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 3px 7px;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: -12px;
+}
+
+/* 🔘 Logout Button */
+.logout-btn {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.logout-btn:hover {
+  background-color: #b02532;
+  transform: scale(1.05);
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 1024px) {
+  .nav-links {
+    gap: 15px;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+  }
+
+  .search-input {
+    width: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .nav-links {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .search-input {
+    width: 150px;
+    font-size: 0.9rem;
+  }
+
+  .logout-btn {
+    font-size: 0.9rem;
+  }
+}

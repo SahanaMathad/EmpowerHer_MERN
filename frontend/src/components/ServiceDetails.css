@@ -1,0 +1,102 @@
+/* 🌟 Service Details Page Styling */
+.service-details {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: linear-gradient(to right, #ff9a3c, #ff6a00, #ff66b2); 
+  /* Pastel Orange-Pink Gradient */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+/* 🖼️ Service Image */
+.service-image {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* 🏷️ Service Title */
+.service-details h2 {
+  font-size: 24px;
+  color: #2b2b2b;
+  margin-bottom: 10px;
+}
+
+/* 📜 Service Details */
+.service-details p {
+  font-size: 16px;
+  color: #444;
+  margin: 8px 0;
+}
+
+/* 📅 Booking Form */
+.booking-form {
+  margin-top: 20px;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* 📆 Input Fields */
+.booking-form label {
+  display: block;
+  font-weight: 600;
+  color: #333;
+  margin-top: 10px;
+}
+
+.booking-form input,
+.booking-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* 📅 Book Service Button */
+.booking-form button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background: #ff6f61;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.booking-form button:hover {
+  background: #e44d42;
+}
+
+/* ❌ Error Message */
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* 🔍 Responsive Design */
+@media (max-width: 768px) {
+  .service-details {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .booking-form input,
+  .booking-form select {
+    font-size: 14px;
+  }
+}

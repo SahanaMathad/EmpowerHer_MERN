@@ -1,0 +1,110 @@
+/* Container styling */
+.cart-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.cart-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Cart item styling */
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+/* Product image styling */
+.cart-item-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+
+/* Details container */
+.cart-item-details {
+  flex: 1;
+}
+
+/* Product name */
+.cart-item-details h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #222;
+}
+
+/* Other product details */
+.cart-item-details p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+/* New container for quantity selector and remove button */
+.quantity-remove-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;  /* Adds a gap between quantity dropdown and remove button */
+  margin-top: 10px;
+}
+
+/* Quantity dropdown styling */
+.quantity-selector select {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Remove button styling */
+.remove-btn {
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-btn:hover {
+  background-color: #c9302c;
+}
+
+/* Cart summary container */
+.cart-summary {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Proceed to Checkout button styling */
+.checkout-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.checkout-btn:hover {
+  background-color: #0056b3;
+}

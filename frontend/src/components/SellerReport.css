@@ -1,0 +1,115 @@
+/* Styles scoped to Seller Report Page */
+.seller-report-container {
+    width: 85%;
+    max-width: 900px; /* Reduced size */
+    margin: 30px auto;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    font-family: "Poppins", sans-serif;
+}
+
+/* Headings - Scoped */
+.seller-report-container h1, 
+.seller-report-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Table Wrapper */
+.seller-report-container .table-container {
+    overflow-x: auto;
+}
+
+/* Report Table - Scoped */
+.seller-report-container .report-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 6px;
+}
+
+/* Table Headers */
+.seller-report-container .report-table th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Table Cells */
+.seller-report-container .report-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+    color: #555;
+}
+
+/* Alternate Row Color */
+.seller-report-container .report-table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* Hover Effect */
+.seller-report-container .report-table tbody tr:hover {
+    background-color: #e6f7ff;
+}
+
+/* Summary Table - Scoped */
+.seller-report-container .summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+/* Summary Table Headers */
+.seller-report-container .summary-table th {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Summary Table Cells */
+.seller-report-container .summary-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+    color: #333;
+}
+
+/* Sales Summary Title */
+.seller-report-container h2 {
+    margin-top: 20px;
+    padding-top: 8px;
+    border-top: 2px solid #007bff;
+    font-size: 18px;
+}
+
+/* Back Button */
+.seller-report-container .back-btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 8px 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.seller-report-container .back-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}

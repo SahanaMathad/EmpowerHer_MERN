@@ -1,0 +1,45 @@
+/* Example: reduce the width of the remove and checkout buttons */
+.remove-btn,
+.checkout-btn {
+  display: inline-block;      /* Ensure the button width matches its content */
+  padding: 8px 20px;         /* Adjust padding for a smaller, neater button */
+  font-size: 14px;           /* Slightly smaller font for a formal look */
+  border-radius: 4px;        /* Keep corners subtly rounded */
+  border: none;              /* Remove default border */
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+  text-decoration: none;     /* In case you ever use a link styled as a button */
+}
+
+/* Remove Button Style */
+.remove-btn {
+  background-color: #d9534f; /* Muted red */
+  color: #fff;
+  margin-right: 10px;        /* Some spacing to the right if needed */
+}
+
+.remove-btn:hover {
+  background-color: #c9302c;
+  transform: scale(1.02);    /* Slight hover effect */
+}
+
+/* Proceed to Checkout Button Style */
+.checkout-btn {
+  background-color: #007bff; /* Blue */
+  color: #fff;
+}
+
+.checkout-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.02);    /* Slight hover effect */
+}
+
+/* Example Container for total price and checkout */
+.cart-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cart-footer .checkout-btn {
+  margin: 0 auto;
+}

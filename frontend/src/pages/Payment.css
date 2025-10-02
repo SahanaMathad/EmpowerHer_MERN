@@ -1,0 +1,71 @@
+/* Payment.css */
+.payment-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.payment-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.payment-summary {
+  margin-bottom: 20px;
+  background: #f8f8f8;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.payment-summary p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.payment-method {
+  margin-bottom: 20px;
+}
+
+.payment-method label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.card-details label {
+  font-weight: 500;
+  color: #444;
+}
+
+.card-details input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 30%;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #218838;
+}
