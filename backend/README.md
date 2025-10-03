@@ -54,6 +54,19 @@ It provides authentication, product & service listings, orders, carts, bookings,
 7.Reports
     GET /api/seller-report → Seller sales & earnings report
 
+**Project Structure**
+
+      backend/
+      ├─ config/            # Database & environment configuration
+      ├─ controllers/       # Route controller logic (Auth, Products, Services, etc.)
+      ├─ middleware/        # Authentication & error-handling middleware
+      ├─ models/            # MongoDB schemas (User, Product, Service, Order, etc.)
+      ├─ routes/            # Express route files (auth.js, products.js, services.js, etc.)
+      ├─ uploads/           # Uploaded files (images, documents)
+      ├─ server.js          # Entry point of backend server
+      ├─ package.json       # Backend dependencies & scripts
+      └─ .env.example       # Environment variable template
+
 **Database Collections**
 
 1. Users – Buyers & sellers (name, email, password, role, etc.)
