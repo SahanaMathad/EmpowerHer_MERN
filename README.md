@@ -57,40 +57,40 @@ EmpowerHer_MERN/
 
 **Screenshots**
 ### Signup Page
-![Signup Page](./screenshots/102.png)
+![Signup Page](./screenshots/102.PNG)
 
 ### Login Page
-![Login Page](./screenshots/101.png)
+![Login Page](./screenshots/101.PNG)
 
 ### About Page
-![About Page](./screenshots/113.png)
+![About Page](./screenshots/113.PNG)
 
 ### Seller Profile Page
-![Seller Profile Page](./screenshots/103.png)
+![Seller Profile Page](./screenshots/103.PNG)
 
 ### Add Product Page
-![Add product Page](./screenshots/104.png)
+![Add product Page](./screenshots/104.PNG)
 
 ### Add Service Page
-![Add service Page](./screenshots/105.png)
+![Add service Page](./screenshots/105.PNG)
 
 ### Manage Service Page
-![Manage service Page](./screenshots/106.png)
+![Manage service Page](./screenshots/106.PNG)
 
 ### Product Listing Page
-![Product listing Page](./screenshots/107.png)
+![Product listing Page](./screenshots/107.PNG)
 
 ### Cart Page
-![Cart Page](./screenshots/109.png)
+![Cart Page](./screenshots/109.PNG)
 
 ### Payment Page
-![Payment Page](./screenshots/110.png)
+![Payment Page](./screenshots/110.PNG)
 
 ### Service listing Page
-![Service Listing Page](./screenshots/111.png)
+![Service Listing Page](./screenshots/111.PNG)
 
 ### Add Service Page
-![Add Service Page](./screenshots/112.png)
+![Add Service Page](./screenshots/112.PNG)
 
 
 **Contributing**
