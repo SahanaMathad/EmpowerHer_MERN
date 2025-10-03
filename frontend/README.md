@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+**EmpowerHer – Frontend (React.js)**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the frontend of the EmpowerHer platform.
+It provides a user-friendly interface for buyers and sellers to interact with the system.
 
-## Available Scripts
+**Setup Instructions**
 
-In the project directory, you can run:
+1. Move into Frontend Folder
+   cd frontend
+2. Install Dependencies
+   npm install
+3. Setup Environment Variables
+   Create .env file (copy from .env.example):
+   REACT_APP_API_URL=http://localhost:5000/api
+4. Run Frontend
+   npm start
+   Frontend runs at: http://localhost:3000
+   It will connect to the backend API at REACT_APP_API_URL.
+   
+**Project Structure**
 
-### `npm start`
+  frontend/
+  ├─ public/              # Static assets
+  ├─ src/
+  │  ├─ assets/           # Images, icons
+  │  ├─ components/       # Reusable UI components
+  │  ├─ context/          # Context API for state management
+  │  ├─ pages/            # Page components (Home, Login, Signup, etc.)
+  │  ├─ services/         # API wrappers
+  │  ├─ utils/            # Helper utilities (API config)
+  │  └─ App.js            # Main routes
+  ├─ package.json
+  └─ .env.example
+ 
+**Main Routes/Pages**
+1. / → Home Page
+2. /login → Login Page
+3. /signup → Signup Page
+4. /products → View all products
+5. /services → View all services
+6. /cart → Shopping cart
+7. /checkout → Checkout page
+8. /profile → User profile (buyer/seller)
+9. /seller-report → Seller’s sales report
+10. /bookings → Buyer/seller bookings
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**API Integration**
+All API requests are handled using Axios.
+API base URL is set via .env in:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**// src/utils/API.js**
 
-### `npm test`
+    const API = axios.create({
+      baseURL: process.env.REACT_APP_API_URL,
+    });
+* Update REACT_APP_API_URL in .env if backend runs on a different port/server.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Tech Used**
+  React.js
+  Bootstrap
+  Axios
+  React Router
