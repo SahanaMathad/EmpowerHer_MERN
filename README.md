@@ -55,6 +55,44 @@ EmpowerHer_MERN/
 5. Reviews → feedback on products & services.
 6. Reports → seller performance, sales history, and earnings.
 
+**Screenshots**
+### Signup Page
+![Signup Page](./screenshots/102.png)
+
+### Login Page
+![Login Page](./screenshots/101.png)
+
+### About Page
+![About Page](./screenshots/113.png)
+
+### Seller Profile Page
+![Seller Profile Page](./screenshots/103.png)
+
+### Add Product Page
+![Add product Page](./screenshots/104.png)
+
+### Add Service Page
+![Add service Page](./screenshots/105.png)
+
+### Manage Service Page
+![Manage service Page](./screenshots/106.png)
+
+### Product Listing Page
+![Product listing Page](./screenshots/107.png)
+
+### Cart Page
+![Cart Page](./screenshots/109.png)
+
+### Payment Page
+![Payment Page](./screenshots/110.png)
+
+### Service listing Page
+![Service Listing Page](./screenshots/111.png)
+
+### Add Service Page
+![Add Service Page](./screenshots/112.png)
+
+
 **Contributing**
 
 1. Fork the repo.
